@@ -1,0 +1,190 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Demo User",
+      "email": "demo@gmail.com",
+      "password": "demo123",
+      "role": "user"
+    },
+    {
+      "id": "2",
+      "name": "Hotel Admin",
+      "email": "admin@hotel.com",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "1",
+      "name": "Deluxe Room",
+      "hotel": "Grand Palace Hotel",
+      "location": "Hyderabad",
+      "category": "Deluxe",
+      "price": 2500,
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "description": "A comfortable deluxe room with a beautiful interior and modern facilities.",
+      "capacity": 2,
+      "available": true,
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Television"
+      ],
+      "badge": "Trending",
+      "originalPrice": 3400,
+      "reviewsCount": 128
+    },
+    {
+      "id": "2",
+      "name": "Luxury Suite",
+      "hotel": "Royal Comfort Hotel",
+      "location": "Visakhapatnam",
+      "category": "Suite",
+      "price": 4500,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "description": "A spacious luxury suite with premium facilities and elegant furniture.",
+      "capacity": 3,
+      "available": true,
+      "amenities": [
+        "Free Wi-Fi",
+        "Swimming Pool",
+        "Room Service"
+      ],
+      "badge": "Luxury",
+      "originalPrice": 6200,
+      "reviewsCount": 184
+    },
+    {
+      "id": "3",
+      "name": "Standard Room",
+      "hotel": "City Stay Hotel",
+      "location": "Hyderabad",
+      "category": "Standard",
+      "price": 1800,
+      "rating": 4.2,
+      "image": "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?auto=format&fit=crop&w=800&q=80",
+      "description": "An affordable and comfortable room for a pleasant stay.",
+      "capacity": 2,
+      "available": true,
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Television"
+      ],
+      "originalPrice": 2400,
+      "reviewsCount": 76
+    },
+    {
+      "id": "4",
+      "name": "Presidential Suite",
+      "hotel": "Taj Heritage Palace",
+      "location": "Hyderabad",
+      "category": "Suite",
+      "price": 9500,
+      "originalPrice": 12500,
+      "rating": 4.9,
+      "reviewsCount": 210,
+      "capacity": 4,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1702255489644-392758161f1f?auto=format&fit=crop&w=800&q=80",
+      "description": "An iconic presidential suite with a private lounge, panoramic city views and a personal butler.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Swimming Pool",
+        "Room Service",
+        "Private Lounge"
+      ],
+      "badge": "Luxury"
+    },
+    {
+      "id": "5",
+      "name": "Sea View Deluxe",
+      "hotel": "Ocean Breeze Resort",
+      "location": "Visakhapatnam",
+      "category": "Deluxe",
+      "price": 3800,
+      "originalPrice": 5200,
+      "rating": 4.6,
+      "reviewsCount": 167,
+      "capacity": 3,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&w=800&q=80",
+      "description": "Wake up to the sea. A bright deluxe room with a private balcony facing the beach.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Sea View Balcony",
+        "Breakfast Included"
+      ],
+      "badge": "Best Seller"
+    },
+    {
+      "id": "6",
+      "name": "Budget Single Room",
+      "hotel": "Comfort Inn",
+      "location": "Vijayawada",
+      "category": "Standard",
+      "price": 1200,
+      "originalPrice": 1600,
+      "rating": 4.0,
+      "reviewsCount": 89,
+      "capacity": 1,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1552858725-2758b5fb1286?auto=format&fit=crop&w=800&q=80",
+      "description": "A clean and simple single room, ideal for solo travellers and short business trips.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Television"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Family Suite",
+      "hotel": "Green Valley Hotel",
+      "location": "Tirupati",
+      "category": "Suite",
+      "price": 5200,
+      "originalPrice": 6900,
+      "rating": 4.7,
+      "reviewsCount": 134,
+      "capacity": 5,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1680210851458-b7dc5685e06e?auto=format&fit=crop&w=800&q=80",
+      "description": "A spacious two-bedroom suite designed for families, close to the temple town centre.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Kids Play Area",
+        "Room Service",
+        "Breakfast Included"
+      ],
+      "badge": "Family Pick"
+    },
+    {
+      "id": "8",
+      "name": "Executive Room",
+      "hotel": "City Stay Hotel",
+      "location": "Hyderabad",
+      "category": "Deluxe",
+      "price": 3200,
+      "originalPrice": 4100,
+      "rating": 4.4,
+      "reviewsCount": 102,
+      "capacity": 2,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=800&q=80",
+      "description": "A modern executive room with a work desk, fast Wi-Fi and complimentary evening coffee.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Work Desk",
+        "Air Conditioning",
+        "Coffee Maker"
+      ]
+    }
+  ],
+  "bookings": []
+}
